@@ -13,7 +13,7 @@ public class SpotifyLookupTest {
         SpotifyLookup spotifyLookup = new SpotifyLookup();
 
         // Use our Virt instead of the real API
-        spotifyLookup.setEndpoint("http://localhost:8080/lookup/1/");
+        spotifyLookup.setEndpoint("http://localhost:53487/lookup/1/");
 
         String title = spotifyLookup.getTitle("7JIuSd9aMu0bDd57820sFV");
         assertThat(title, is("Nytt golv"));
